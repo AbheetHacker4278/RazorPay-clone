@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.corefeaturesection{
+    background-size: 140% 100%;
+    padding-top:12rem;
+    padding-bottom:12rem;
+}
+.moveImage{
+    animation:2s infinite linear moveImage;
+}
+.ctasection{
+    background-size: 100% 100%;
+}
+@keyframes moveImage{
+    0%{
+        top:0;
+    }
+    100%{
+        top:-50%;
+    }
+}
